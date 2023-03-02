@@ -1,0 +1,75 @@
+.twitterWrapper {
+  background-color: #f5fafe;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 4%);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  .contents {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+
+      .followers {
+        display: flex;
+        align-items: center;
+        background-color: #00acee;
+        border-radius: 20px;
+        padding: 5px 20px;
+        overflow: hidden;
+        max-height: 20px;
+
+        p {
+          margin: 0;
+          color: white;
+          font-weight: 700;
+          font-size: 12px;
+
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+
+      .Twitterhandle {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+          margin: 0;
+          font-size: 14px;
+        }
+
+        p {
+          margin: 0;
+          font-size: 12px;
+          line-height: 16px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+
+      .bio {
+        margin-top: 1rem;
+        p {
+          margin: 0;
+          font-size: 12px;
+          line-height: 16px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
 import { siteData } from "./components/data/index";
+import RightSection from "./components/rightSection";
 
 const Home: FC = () => {
   return (
@@ -40,7 +41,9 @@ const Home: FC = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.right}>Right</div>
+            <div className={styles.right}>
+              <RightSection />
+            </div>
           </div>
         </div>
       </div>

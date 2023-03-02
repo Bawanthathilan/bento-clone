@@ -1,0 +1,13 @@
+.right {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 2rem;
+
+  & > div:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+}
